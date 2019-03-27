@@ -11,7 +11,7 @@ public class Main {
         FileWriter fw = new FileWriter(f,true);
         BufferedReader br = new BufferedReader(fr);
         BufferedWriter bw = new BufferedWriter(fw);
-        PrintWriter pw = new PrintWriter("student.txt");
+        PrintWriter pw = new PrintWriter(new FileWriter(f,true));
         
         System.out.println("If you want to enter new student hit 1");
         System.out.println("If you want to search a student hit 2");
